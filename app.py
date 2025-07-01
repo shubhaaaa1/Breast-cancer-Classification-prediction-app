@@ -46,7 +46,7 @@ with col1:
     feature13 = st.number_input('Enter Feature 13 as per previewed dataset',min_value=0.0,step=0.1)
     feature14 = st.number_input('Enter Feature 14 as per previewed dataset',min_value=0.0,step=0.1)
     feature15 = st.number_input('Enter Feature 15 as per previewed dataset',min_value=0.0,step=0.1)
-    feature16 = st.number_input('Enter Feature 16 as per previewed dataset',min_value=0.0,,step=0.1)
+    feature16 = st.number_input('Enter Feature 16 as per previewed dataset',min_value=0.0,step=0.1)
     feature17 = st.number_input('Enter Feature 17 as per previewed dataset',min_value=0.0,step=0.1)
     feature18 = st.number_input('Enter Feature 18 as per previewed dataset',min_value=0.0,step=0.1)
     feature19 = st.number_input('Enter Feature 19 as per previewed dataset',min_value=0.0,step=0.1)
