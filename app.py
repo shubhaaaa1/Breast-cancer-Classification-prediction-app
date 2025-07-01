@@ -74,7 +74,7 @@ if st.button('Predict'):
     reshaped = numpy_array.reshape(1, -1)
     prediction = model.predict(reshaped)
 
-    if prediction[0] == 0:
+    if prediction[0] == 1:
         st.success("The tumor is Benign.")
     else:
         st.error("The tumor is Malignant.")
